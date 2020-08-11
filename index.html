@@ -1,0 +1,268 @@
+<html manifest="cache.manifest" dir="rtl">
+<head>
+<meta charset="utf-8">
+
+<title>صفحة تهكير بلايستيشن 4 لنظام 6.72  بواسطة جاسر</title>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="جاري تحميل الصفحة: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="تم تحميل الصفحة بنجاح...✔";},1000);setTimeout(function(){window.msgs.innerHTML="صفحة تهكير بلايستيشن 4 لنظام 6.72 المهكر";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<script src="exp_common.js"></script>
+<script src="exp_jailbreak.js"></script>
+<link href="system.css" rel="stylesheet" />
+</head>
+<body class="index-page">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
+<div class="container">
+<div class="navbar-translate">
+
+<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-bar bar1"></span>
+<span class="navbar-toggler-bar bar2"></span>
+<span class="navbar-toggler-bar bar3"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse justify-content-end" id="navigation">
+<div class="navbar-collapse-header">
+</div>
+</div>
+<ul class="navbar-nav">
+<li>
+<div class="col-md-4">
+
+</div>
+</li>
+<li>
+<div class="col-md-4">
+
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="section section-javascript" id="javascriptComponents">
+</div>
+<div class="container">
+<h1 id=msgs style='font-size:25px;text-align:center;'>صفحة تهكير بلايستيشن 4 لنظام 6.72</h1>
+<hr>
+<h1 style='font-size:18px;text-align:center;'><p class="text-info">By GaSsOor</p></h1>
+<div style="text-align:center">
+
+<button class="btn btn-round btn-info btn-sm" onclick="load_exploit_HEN(); return false">إضغط هنا لتفعيل الهاك</button>
+<br>
+<script>
+for(var i=40; i<=79; i++){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+tempC.value=60;
+</script>
+<br>
+</div>
+<script>
+function load_exploit(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>جاري تفعيل التهكير... أنتظر قليلاً...</h1>";
+setTimeout(jailbreak,500);
+}
+
+function load_exploit_HEN(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>جاري تفعيل التهكير... أنتظر قليلاً...</h1>";
+LoadedMSG="تم تفعيل التهكير بنجاح ✔";ExploitMira="HEN";MiraSRC="pl_HEN.js";
+setTimeout(jailbreak,500);
+}
+
+function load_exploit_mira(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>جاري تفعيل التهكير... أنتظر قليلاً...</h1>";
+LoadedMSG="تم تفعيل التهكير بنجاح ✔";ExploitMira="yes";MiraSRC="pl_mira.js";
+setTimeout(jailbreak,500);
+}
+
+function load_exploit_miraUnoff(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit + Mira (Unofficial) ...</h1>";
+LoadedMSG="Exploit + Mira Loaded ✔";ExploitMira="yes";MiraSRC="pl_mira_unofficial.js";
+setTimeout(jailbreak,500);
+}
+
+function load_binloader(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Bin Loader ...</h1>";
+LoadedMSG="Send Payload To Port 9021";
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_HEN(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>جاري تفعيل التهكير... أنتظر قليلاً...</h1>";
+LoadedMSG="Hتم تفعيل التهكير بنجاح ✔";
+var script = document.createElement('script');script.src = "pl_HEN.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_mira(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Mira ...</h1>";
+LoadedMSG="Mira Loaded ✔";
+var script = document.createElement('script');script.src = "pl_mira.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_mira_unofficial(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>جاري تفعيل التهكير... أنتظر قليلاً...</h1>";
+LoadedMSG="تم تفعيل التهكير بنجاح ✔";
+var script = document.createElement('script');script.src = "pl_mira_unofficial.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_ftp(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading FTP ...</h1>";
+LoadedMSG="FTP Loaded ✔";
+var script = document.createElement('script');script.src = "pl_ftp.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_dumper(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Dumper ...</h1>";
+LoadedMSG="Dumper Loaded ✔";
+var script = document.createElement('script');script.src = "pl_dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_linux(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Linux ...</h1>";
+LoadedMSG="Linux Loaded ✔";
+var script = document.createElement('script');script.src = "pl_linux.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_app2usb(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading AppToUSB ...</h1>";
+LoadedMSG="AppToUSB Loaded ✔";
+var script = document.createElement('script');script.src = "pl_app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_kerneldump(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel Dumper ...</h1>";
+LoadedMSG="Kernel Dumper Loaded ✔";
+var script = document.createElement('script');script.src = "pl_kernelDumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_webrte(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WebRTE ...</h1>";
+LoadedMSG="WebRTE Loaded ✔";
+var script = document.createElement('script');script.src = "pl_WebRTE.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_todex(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading ToDEX ...</h1>";
+LoadedMSG="ToDEX Loaded ✔";
+var script = document.createElement('script');script.src = "pl_ToDEX.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_historyblock(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading History Blocker ...</h1>";
+LoadedMSG="History Blocker Loaded ✔";
+var script = document.createElement('script');script.src = "pl_historyBlocker.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_updatesdisable(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable Updates ...</h1>";
+LoadedMSG="Disable Updates Loaded ✔";
+var script = document.createElement('script');script.src = "pl_updatesDisable.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_updatesenable(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Enable Updates ...</h1>";
+LoadedMSG="Enable Updates Loaded ✔";
+var script = document.createElement('script');script.src = "pl_updatesEnable.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_dbBackup(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading DB Backup ...</h1>";
+LoadedMSG="DB Backup Loaded ✔";
+var script = document.createElement('script');script.src = "pl_dbBackup.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_dbRestore(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading DB Restore ...</h1>";
+LoadedMSG="DB Restore Loaded ✔";
+var script = document.createElement('script');script.src = "pl_dbRestore.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_fanthresh(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Fan Threshold ...</h1>";
+LoadedMSG="Fan Threshold Loaded ✔";fanTemp=tempC.value;//alert(fanTemp);
+var script = document.createElement('script');script.src = "pl_fanthresh.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+</script>
+</div>      
+</div>   
+<div class="section section-download" id="#download-section" data-background-color="black">
+<img src="assets/img/path1.png" class="path">
+<div class="container">
+<div class="row row-grid align-items-center my-md">
+<div class="col-lg-6">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade modal-mini modal-info modal-mini" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header justify-content-center">
+<img src="lee.jpg">
+</div>
+<div class="modal-body">
+<br>
+<p>Exploit Menu belongs 100% to GaSsOor</p>
+</div>
+<div class="text-center">
+<button type="button" class="btn btn-info my-4" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade modal-mini modal-info modal-mini" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header justify-content-center">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+<i class="tim-icons icon-simple-remove text-white"></i>
+</button>
+<div class="modal-profile">
+<img src="over.jpg">
+</div>
+</div>
+<div class="modal-body">
+<br>
+<p> Estyles By GaSsOor</p>
+</div>
+<div class="text-center">
+<button type="button" class="btn btn-info my-4" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>  
+  <!--   Core JS Files   -->
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="popper.min.js" type="text/javascript"></script>
+<script src="bootstrap.min.js" type="text/javascript"></script>
+<script src="system.min.js" type="text/javascript"></script>
+  
+</body>
+</html>
